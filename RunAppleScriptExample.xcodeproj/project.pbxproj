@@ -11,6 +11,7 @@
 		CEE39F692BFE44E800DEA4D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE39F682BFE44E800DEA4D4 /* ContentView.swift */; };
 		CEE39F6B2BFE44E900DEA4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE39F6A2BFE44E900DEA4D4 /* Assets.xcassets */; };
 		CEE39F6E2BFE44E900DEA4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE39F6D2BFE44E900DEA4D4 /* Preview Assets.xcassets */; };
+		CEE39F762BFE469100DEA4D4 /* MyScript.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CEE39F752BFE469100DEA4D4 /* MyScript.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CEE39F6A2BFE44E900DEA4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE39F6D2BFE44E900DEA4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEE39F6F2BFE44E900DEA4D4 /* RunAppleScriptExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunAppleScriptExample.entitlements; sourceTree = "<group>"; };
+		CEE39F752BFE469100DEA4D4 /* MyScript.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyScript.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CEE39F6A2BFE44E900DEA4D4 /* Assets.xcassets */,
 				CEE39F6F2BFE44E900DEA4D4 /* RunAppleScriptExample.entitlements */,
 				CEE39F6C2BFE44E900DEA4D4 /* Preview Content */,
+				CEE39F752BFE469100DEA4D4 /* MyScript.scpt */,
 			);
 			path = RunAppleScriptExample;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE39F762BFE469100DEA4D4 /* MyScript.scpt in Resources */,
 				CEE39F6E2BFE44E900DEA4D4 /* Preview Assets.xcassets in Resources */,
 				CEE39F6B2BFE44E900DEA4D4 /* Assets.xcassets in Resources */,
 			);
@@ -277,6 +281,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RunAppleScriptExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Please give access to executing Apple Script";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RunAppleScriptExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Please give access to executing Apple Script";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
